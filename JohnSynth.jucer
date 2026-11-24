@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="PhN6BB" name="Mauserich" projectType="audioplug" useAppConfig="0"
+              addUsingNamespaceToJuceHeader="0" jucerFormatVersion="1" companyName="Nuno"
+              pluginCharacteristicsValue="pluginIsSynth,pluginWantsMidiIn"
+              pluginFormats="buildAU,buildVST3" pluginDesc="80s saw synth"
+              pluginAUMainType="'aumu'" pluginVST3Category="Instrument,Synth"
+              pluginAAXCategory="2048">
+  <MAINGROUP id="CIiaVp" name="Mauserich">
+    <GROUP id="{1990A848-995A-D968-012E-1F2C225D582B}" name="Source">
+      <GROUP id="{9A697EAC-5F20-84D4-65F6-A517AC80BA3A}" name="Layout">
+        <FILE id="GEW7PV" name="ADSRDisplay.cpp" compile="1" resource="0" file="Source/ADSRDisplay.cpp"/>
+        <FILE id="hH9iy3" name="ADSRDisplay.h" compile="0" resource="0" file="Source/ADSRDisplay.h"/>
+        <FILE id="Ggix6Q" name="Container.cpp" compile="1" resource="0" file="Source/Container.cpp"/>
+        <FILE id="NVsIuy" name="Container.h" compile="0" resource="0" file="Source/Container.h"/>
+        <FILE id="byaBAD" name="SceneComponent.cpp" compile="1" resource="0"
+              file="Source/SceneComponent.cpp"/>
+        <FILE id="ZyvR8r" name="SceneComponent.h" compile="0" resource="0"
+              file="Source/SceneComponent.h"/>
+      </GROUP>
+      <GROUP id="{3E0AA864-60E5-4188-5AC7-F17419FF8826}" name="Graphics">
+        <FILE id="X0bdyU" name="Dial.cpp" compile="1" resource="0" file="Source/Dial.cpp"/>
+        <FILE id="wHKEgo" name="Dial.h" compile="0" resource="0" file="Source/Dial.h"/>
+        <FILE id="eibqDj" name="MauserichLookAndFeel.cpp" compile="1" resource="0"
+              file="Source/MauserichLookAndFeel.cpp"/>
+        <FILE id="zTWe7S" name="MauserichLookAndFeel.h" compile="0" resource="0"
+              file="Source/MauserichLookAndFeel.h"/>
+      </GROUP>
+      <GROUP id="{245E002C-B6FC-AB1B-9A38-E6AADD6320AE}" name="DSP">
+        <FILE id="QylUUu" name="Saturator.cpp" compile="1" resource="0" file="Source/Saturator.cpp"/>
+        <FILE id="snFijf" name="Saturator.h" compile="0" resource="0" file="Source/Saturator.h"/>
+        <FILE id="JCjTlv" name="Oscillator.cpp" compile="1" resource="0" file="Source/Oscillator.cpp"/>
+        <FILE id="QAvlir" name="Oscillator.h" compile="0" resource="0" file="Source/Oscillator.h"/>
+        <FILE id="GU85ix" name="LowpassFilter.cpp" compile="1" resource="0"
+              file="Source/LowpassFilter.cpp"/>
+        <FILE id="OAxD4C" name="LowpassFilter.h" compile="0" resource="0" file="Source/LowpassFilter.h"/>
+        <FILE id="wO6tod" name="ADSR.cpp" compile="1" resource="0" file="Source/ADSR.cpp"/>
+        <FILE id="pv11Fz" name="ADSR.h" compile="0" resource="0" file="Source/ADSR.h"/>
+      </GROUP>
+      <FILE id="I2Di3J" name="Sliders.cpp" compile="1" resource="0" file="Source/Sliders.cpp"/>
+      <FILE id="DN6vGg" name="Sliders.h" compile="0" resource="0" file="Source/Sliders.h"/>
+      <FILE id="dr3r5w" name="PluginProcessor.cpp" compile="1" resource="0"
+            file="Source/PluginProcessor.cpp"/>
+      <FILE id="Pp7Rex" name="PluginProcessor.h" compile="0" resource="0"
+            file="Source/PluginProcessor.h"/>
+      <FILE id="gk1HIc" name="PluginEditor.cpp" compile="1" resource="0"
+            file="Source/PluginEditor.cpp"/>
+      <FILE id="abvWjn" name="PluginEditor.h" compile="0" resource="0" file="Source/PluginEditor.h"/>
+    </GROUP>
+    <GROUP id="{6F0DBEBC-D349-FB13-B9C2-67CB1DE415AA}" name="assets">
+      <FILE id="A4jqay" name="cheese.png" compile="0" resource="1" file="assets/cheese.png"/>
+      <FILE id="cmLSUB" name="fader_blue.png" compile="0" resource="1" file="assets/fader_blue.png"/>
+      <FILE id="Lai4XA" name="fader.png" compile="0" resource="1" file="assets/fader.png"/>
+      <FILE id="jqCkNR" name="dial.png" compile="0" resource="1" file="assets/dial.png"/>
+      <FILE id="F11kZ8" name="background.png" compile="0" resource="1" file="assets/background.png"/>
+      <GROUP id="{8F113E7A-F59E-AA7F-0AC3-721C9743E9F0}" name="Barlow_Condensed">
+        <FILE id="OJp2l5" name="BarlowCondensed-Black.ttf" compile="0" resource="1"
+              file="../../../Documents/Fonts/Barlow_Condensed/BarlowCondensed-Black.ttf"/>
+        <FILE id="NYdheu" name="BarlowCondensed-BlackItalic.ttf" compile="0"
+              resource="1" file="../../../Documents/Fonts/Barlow_Condensed/BarlowCondensed-BlackItalic.ttf"/>
+        <FILE id="vK84TU" name="BarlowCondensed-Bold.ttf" compile="0" resource="1"
+              file="../../../Documents/Fonts/Barlow_Condensed/BarlowCondensed-Bold.ttf"/>
+        <FILE id="XYiqBa" name="BarlowCondensed-BoldItalic.ttf" compile="0"
+              resource="1" file="../../../Documents/Fonts/Barlow_Condensed/BarlowCondensed-BoldItalic.ttf"/>
+        <FILE id="RQNAIQ" name="BarlowCondensed-ExtraBold.ttf" compile="0"
+              resource="1" file="../../../Documents/Fonts/Barlow_Condensed/BarlowCondensed-ExtraBold.ttf"/>
+        <FILE id="YYHYG4" name="BarlowCondensed-ExtraBoldItalic.ttf" compile="0"
+              resource="1" file="../../../Documents/Fonts/Barlow_Condensed/BarlowCondensed-ExtraBoldItalic.ttf"/>
+        <FILE id="S9L4OF" name="BarlowCondensed-ExtraLight.ttf" compile="0"
+              resource="1" file="../../../Documents/Fonts/Barlow_Condensed/BarlowCondensed-ExtraLight.ttf"/>
+        <FILE id="tlUCMv" name="BarlowCondensed-ExtraLightItalic.ttf" compile="0"
+              resource="1" file="../../../Documents/Fonts/Barlow_Condensed/BarlowCondensed-ExtraLightItalic.ttf"/>
+        <FILE id="XJ3HMP" name="BarlowCondensed-Italic.ttf" compile="0" resource="1"
+              file="../../../Documents/Fonts/Barlow_Condensed/BarlowCondensed-Italic.ttf"/>
+        <FILE id="QgIqYD" name="BarlowCondensed-Light.ttf" compile="0" resource="1"
+              file="../../../Documents/Fonts/Barlow_Condensed/BarlowCondensed-Light.ttf"/>
+        <FILE id="WDcw7n" name="BarlowCondensed-LightItalic.ttf" compile="0"
+              resource="1" file="../../../Documents/Fonts/Barlow_Condensed/BarlowCondensed-LightItalic.ttf"/>
+        <FILE id="L0AzrN" name="BarlowCondensed-Medium.ttf" compile="0" resource="1"
+              file="../../../Documents/Fonts/Barlow_Condensed/BarlowCondensed-Medium.ttf"/>
+        <FILE id="bo0bug" name="BarlowCondensed-MediumItalic.ttf" compile="0"
+              resource="1" file="../../../Documents/Fonts/Barlow_Condensed/BarlowCondensed-MediumItalic.ttf"/>
+        <FILE id="Ocu5aV" name="BarlowCondensed-Regular.ttf" compile="0" resource="1"
+              file="../../../Documents/Fonts/Barlow_Condensed/BarlowCondensed-Regular.ttf"/>
+        <FILE id="Fr9k94" name="BarlowCondensed-SemiBold.ttf" compile="0" resource="1"
+              file="../../../Documents/Fonts/Barlow_Condensed/BarlowCondensed-SemiBold.ttf"/>
+        <FILE id="s4YAqA" name="BarlowCondensed-SemiBoldItalic.ttf" compile="0"
+              resource="1" file="../../../Documents/Fonts/Barlow_Condensed/BarlowCondensed-SemiBoldItalic.ttf"/>
+        <FILE id="zzzBwF" name="BarlowCondensed-Thin.ttf" compile="0" resource="1"
+              file="../../../Documents/Fonts/Barlow_Condensed/BarlowCondensed-Thin.ttf"/>
+        <FILE id="lm58dK" name="BarlowCondensed-ThinItalic.ttf" compile="0"
+              resource="1" file="../../../Documents/Fonts/Barlow_Condensed/BarlowCondensed-ThinItalic.ttf"/>
+        <FILE id="U7ff8c" name="OFL.txt" compile="0" resource="1" file="../../../Documents/Fonts/Barlow_Condensed/OFL.txt"/>
+      </GROUP>
+      <FILE id="itOP9G" name="BG.af" compile="0" resource="1" file="assets/BG.af"/>
+      <FILE id="qm43tu" name="dial.blend" compile="0" resource="1" file="assets/dial.blend"/>
+      <FILE id="Lzwb2U" name="dial.blend1" compile="0" resource="1" file="assets/dial.blend1"/>
+      <FILE id="EUbDDf" name="mauserich.blend" compile="0" resource="1" file="assets/mauserich.blend"/>
+      <FILE id="VXTgUZ" name="mauserich.png" compile="0" resource="1" file="assets/mauserich.png"/>
+    </GROUP>
+  </MAINGROUP>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_plugin_client" showAllCode="1" useLocalCopy="0"
+            useGlobalPath="1"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_processors_headless" showAllCode="1" useLocalCopy="0"
+            useGlobalPath="1"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1" JUCE_VST3_CAN_REPLACE_VST2="0"/>
+  <EXPORTFORMATS>
+    <XCODE_MAC targetFolder="Builds/MacOSX">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="Mauserich" vst3BinaryLocation="/Library/Audio/Plug-Ins/VST3"
+                       auBinaryLocation="/Library/Audio/Plug-Ins/Components"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="Mauserich"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors_headless" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../JUCE/modules"/>
+      </MODULEPATHS>
+    </XCODE_MAC>
+  </EXPORTFORMATS>
+</JUCERPROJECT>
